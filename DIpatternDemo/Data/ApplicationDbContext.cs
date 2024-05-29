@@ -11,5 +11,7 @@ namespace DIpatternDemo.Data
         public DbSet<Emp> Employees { get; set; }
 
         public DbSet<Student1> Stud { get; set; }
+
+        public DbSet<Product1> Pdt{ get; set; }
     }
 }
